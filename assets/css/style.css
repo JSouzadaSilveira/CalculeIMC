@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+:root {
+  --primary-color: rgb(17, 86, 102);
+  --primary-color-darker: rgb(9, 48, 56);
+  --primary-color-light: rgb(17, 138, 162);
+}
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--primary-color);
+  font-family: 'Open sans', sans-serif;
+  font-size: 1.3em;
+  line-height: 1.5em;
+}
+
+.container {
+  max-width: 640px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 15px 10px 25px rgb(9, 48, 56);
+}
+
+form input, form label, form button {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+form input {
+  font-size: 24px;
+  height: 50px;
+  padding: 0 20px;
+  border-radius: 20px;
+}
+
+form input:focus {
+  outline: 1px solid var(--primary-color-light);
+}
+
+form button {
+  border: none;
+  background: var(--primary-color);
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  height: 50px;
+  cursor: pointer;
+  margin-top: 30px;
+  border-radius: 20px;
+}
+
+form button:hover {
+  background: var(--primary-color-darker);
+}
+
+.result {
+  text-align: center;
+  font-size: 24px;
+  padding: 10px 20px;
+  box-shadow: 5px 2px 15px rgb(80, 80, 80);
+  border-radius: 10px;
+}
+
+.very-danger{
+  background-color: rgba(255, 42, 42, 0.9);
+}
+.danger{
+  background-color: rgba(255, 102, 102, 0.9);
+}
+.warning{
+  background-color: rgba(255, 190, 12, 0.9);
+}
+.success{
+  background-color: rgba(47, 249, 57, 0.756);
+}

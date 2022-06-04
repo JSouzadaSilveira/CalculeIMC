@@ -1,0 +1,1 @@
+A simple method for calculate your IMC
